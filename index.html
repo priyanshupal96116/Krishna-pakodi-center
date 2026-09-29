@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Krishna Pakodi Center | Unjha</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    .hero {
+      background: linear-gradient(135deg, #111, #333);
+      color: white;
+      text-align: center;
+      padding: 42px 20px;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      color: #ddd;
+    }
+
+    /* TOP PHOTO */
+    .top-photo {
+      background: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .top-photo img {
+      width: 100%;
+      max-width: 900px;
+      height: 330px;
+      object-fit: cover;
+      border-radius: 16px;
+      display: block;
+      margin: auto;
+    }
+
+    /* MAIN */
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* CARDS */
+    .card {
+      background: white;
+      margin: 20px 0;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h2 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    .price {
+      font-size: 28px;
+      font-weight: bold;
+      margin: 12px 0;
+    }
+
+    .info {
+      color: #555;
+      font-size: 17px;
+    }
+
+    /* WHY VISIT */
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 9px 0;
+    }
+
+    /* BOOKING */
+    .booking-card {
+      background: #fff7e6;
+      border-left: 5px solid #e67e22;
+    }
+
+    /* BUTTONS */
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 20px;
+      border-radius: 9px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .call {
+      background: #168a28;
+    }
+
+    .whatsapp {
+      background: #25D366;
+    }
+
+    .booking {
+      background: #e67e22;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    /* FOOTER */
+    .footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 30px;
+    }
+
+    .footer p {
+      margin: 5px 0;
+    }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 27px;
+      }
+
+      .top-photo img {
+        height: 240px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+
+      .buttons {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="hero">
+    <h1>🌮 Krishna Pakodi Center</h1>
+    <p>😋 Taste Ekdum Mast!</p>
+  </header>
+
+
+  <!-- GOLGAPPE PHOTO -->
+  <section class="top-photo">
+    <img
+      src="golgappe.jpg. png/golgappe.jpg.png"
+      alt="Delicious Golgappe - Krishna Pakodi Center">
+  </section>
+
+
+  <main class="container">
+
+    <!-- GOLGAPPE -->
+    <section class="card">
+      <h2>🌮 Fresh Golgappe</h2>
+
+      <div class="price">
+        ₹20 — 6 Pieces
+      </div>
+
+      <p class="info">
+        Fresh aur tasty golgappe ka maza lijiye! 😋
+        <br>
+        Crispy golgappe aur delicious taste ke saath.
+      </p>
+    </section>
+
+
+    <!-- WHY VISIT -->
+    <section class="card">
+      <h2>⭐ Why Visit Us?</h2>
+
+      <ul>
+        <li>😋 Ekdum mast taste</li>
+        <li>🌮 Fresh & crispy Golgappe</li>
+        <li>❤️ Friendly service</li>
+        <li>✨ Friends & family ke liye perfect</li>
+      </ul>
+    </section>
+
+
+    <!-- TIMING -->
+    <section class="card">
+      <h2>🕘 Opening Hours</h2>
+
+      <p class="info">
+        <strong>Opening:</strong> 9:00 AM
+      </p>
+
+      <p class="info">
+        <strong>Closing:</strong> 7:00 PM
+      </p>
+    </section>
+
+
+    <!-- LOCATION -->
+    <section class="card">
+      <h2>📍 Location</h2>
+
+      <p class="info">
+        Mahila College, Unjha, Gujarat
+      </p>
+    </section>
+
+
+    <!-- SHAADI PARTY BOOKING -->
+    <section class="card booking-card">
+
+      <h2>🎉 Shaadi & Party Booking</h2>
+
+      <p class="info">
+        Shaadi, birthday party ya kisi special event ke liye
+        Golgappe booking available hai.
+      </p>
+
+      <p class="info">
+        👥 Large group orders ke liye pehle se booking karein.
+      </p>
+
+      <div class="buttons">
+
+        <a
+          class="btn booking"
+          href="https://wa.me/919651133539?text=Hello%20Krishna%20Pakodi%20Center%2C%20mujhe%20Shaadi%20ya%20Party%20ke%20liye%20Golgappe%20booking%20karni%20hai."
+          target="_blank">
+          💬 Booking on WhatsApp
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="card">
+
+      <h2>📞 Contact Us</h2>
+
+      <p class="info">
+        Golgappe aur booking ke liye contact karein.
+      </p>
+
+      <div class="buttons">
+
+        <!-- CALL: 7600953933 -->
+        <a
+          class="btn call"
+          href="tel:7600953933">
+          📞 Call Now
+        </a>
+
+
+        <!-- WHATSAPP: 9651133539 -->
+        <a
+          class="btn whatsapp"
+          href="https://wa.me/919651133539"
+          target="_blank">
+          💬 WhatsApp
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <p>© 2026 Krishna Pakodi Center</p>
+    <p>Unjha, Gujarat</p>
+
+  </footer>
+
+</body>
+</html>
